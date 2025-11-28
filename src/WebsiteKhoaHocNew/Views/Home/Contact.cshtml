@@ -1,0 +1,62 @@
+@{
+    ViewData["Title"] = "Liên hệ";
+}
+
+<div class="container" style="padding: 4rem 0;">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card border-0 shadow-lg" style="background: var(--bg-secondary); border-radius: 1rem; overflow: hidden;">
+                <div class="card-body p-5 text-center">
+                    <div style="width: 80px; height: 80px; background: rgba(99, 102, 241, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 2rem;">
+                        <i class="fas fa-address-card" style="font-size: 2.5rem; color: var(--primary-color);"></i>
+                    </div>
+                    
+                    <h1 class="mb-4" style="font-weight: 800;">Thông Tin Liên Hệ</h1>
+                    <p class="text-muted mb-5">Thông tin sinh viên thực hiện đồ án</p>
+
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-md-10">
+                            <div class="p-4" style="background: var(--bg-tertiary); border-radius: 1rem; border: 1px solid var(--border-color);">
+                                <div class="d-flex align-items-center mb-4">
+                                    <div style="width: 50px; height: 50px; background: rgba(99, 102, 241, 0.2); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-right: 1.5rem;">
+                                        <i class="fas fa-user" style="font-size: 1.5rem; color: var(--primary-light);"></i>
+                                    </div>
+                                    <div class="text-start">
+                                        <div style="color: var(--text-muted); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">Họ và tên</div>
+                                        <div style="font-size: 1.25rem; font-weight: 700; color: var(--text-primary);">Tô Anh Thư</div>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex align-items-center mb-4">
+                                    <div style="width: 50px; height: 50px; background: rgba(236, 72, 153, 0.2); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-right: 1.5rem;">
+                                        <i class="fas fa-users" style="font-size: 1.5rem; color: var(--secondary-color);"></i>
+                                    </div>
+                                    <div class="text-start">
+                                        <div style="color: var(--text-muted); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">Mã lớp</div>
+                                        <div style="font-size: 1.25rem; font-weight: 700; color: var(--text-primary);">DK24TTC2</div>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex align-items-center">
+                                    <div style="width: 50px; height: 50px; background: rgba(16, 185, 129, 0.2); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-right: 1.5rem;">
+                                        <i class="fas fa-id-card" style="font-size: 1.5rem; color: #10b981;"></i>
+                                    </div>
+                                    <div class="text-start">
+                                        <div style="color: var(--text-muted); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">Mã sinh viên</div>
+                                        <div style="font-size: 1.25rem; font-weight: 700; color: var(--text-primary);">170124206</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-5">
+                        <a asp-controller="Home" asp-action="Index" class="btn btn-primary btn-lg px-5" style="border-radius: 50px;">
+                            <i class="fas fa-home me-2"></i> Về Trang Chủ
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
